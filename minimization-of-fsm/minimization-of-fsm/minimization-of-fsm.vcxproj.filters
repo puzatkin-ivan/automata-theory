@@ -24,6 +24,12 @@
     <ClInclude Include="FSMachine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="FSOutputStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FSInputStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
