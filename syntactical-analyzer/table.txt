@@ -1,0 +1,24 @@
+| Num |          Name |                                      Set | Shift | OnError | Stack |  GoTo | IsEnd |
+------------------------------------------------------------------------------------------------------------
+|   0 |           <E> |   Minis, OpeningRoundBracket, Identifier | False |      -1 |  True |     2 | False |
+|   1 |         [END] |                                          | False |      -1 | False |    -1 |  True |
+|   2 |       <E___0> |   Minis, OpeningRoundBracket, Identifier | False |      -1 |  True |     4 | False |
+|   3 |       <E___1> |           ClosingRoundBracket, End, Plus | False |      -1 | False |     5 | False |
+|   4 |           <T> |   Minis, OpeningRoundBracket, Identifier | False |      -1 | False |     9 | False |
+|   5 |         [EPS] |                 ClosingRoundBracket, End | False |       6 | False |    -1 | False |
+|   6 |             + |                                     Plus |  True |      -1 | False |     7 | False |
+|   7 |           <T> |   Minis, OpeningRoundBracket, Identifier | False |      -1 |  True |     9 | False |
+|   8 |       <E___1> |           ClosingRoundBracket, End, Plus | False |      -1 | False |     5 | False |
+|   9 |       <T___2> |   Minis, OpeningRoundBracket, Identifier | False |      -1 |  True |    11 | False |
+|  10 |       <T___3> | ClosingRoundBracket, End, Plus, Multiple | False |      -1 | False |    12 | False |
+|  11 |           <F> |   Minis, OpeningRoundBracket, Identifier | False |      -1 | False |    16 | False |
+|  12 |         [EPS] |           ClosingRoundBracket, End, Plus | False |      13 | False |    -1 | False |
+|  13 |             * |                                 Multiple |  True |      -1 | False |    14 | False |
+|  14 |           <F> |   Minis, OpeningRoundBracket, Identifier | False |      -1 |  True |    16 | False |
+|  15 |       <T___3> | ClosingRoundBracket, End, Plus, Multiple | False |      -1 | False |    12 | False |
+|  16 |             - |                                    Minis |  True |      18 | False |    17 | False |
+|  17 |           <F> |   Minis, OpeningRoundBracket, Identifier | False |      -1 | False |    16 | False |
+|  18 |             ( |                      OpeningRoundBracket |  True |      21 | False |    19 | False |
+|  19 |           <E> |   Minis, OpeningRoundBracket, Identifier | False |      -1 |  True |     2 | False |
+|  20 |             ) |                      ClosingRoundBracket |  True |      -1 | False |    -1 | False |
+|  21 |  [IDENTIFIER] |                               Identifier |  True |      -1 | False |    -1 | False |
