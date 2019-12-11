@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Admin\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Admin\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="W:\git\automata-theory\lr-syntactical-analyzer" t="IncludeRecursive">
+      <e p="1.html" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="input.txt" t="Include" />
+      <e p="lang.txt" t="Include" />
+      <e p="lexer" t="Include">
+        <e p="Enums" t="Include">
+          <e p="TermRecognizerType.cs" t="Include" />
+          <e p="TermType.cs" t="Include" />
+        </e>
+        <e p="ProgramLekser.cs" t="Include" />
+        <e p="Term.cs" t="Include" />
+        <e p="TermRecognizer.cs" t="Include" />
+        <e p="UndefinedTerm.cs" t="Include" />
+      </e>
+      <e p="lr-syntactical-analyzer.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.2" t="Include">
+            <e p="lr-syntactical-analyzer.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="runner" t="Include">
+        <e p="InputWord.cs" t="Include" />
+        <e p="InputWordType.cs" t="Include" />
+        <e p="Runner.cs" t="Include" />
+      </e>
+      <e p="slr_table.txt" t="Include" />
+      <e p="table" t="Include">
+        <e p="Cell.cs" t="Include" />
+        <e p="FirstCreator.cs" t="Include" />
+        <e p="ReservedTerm.cs" t="Include" />
+        <e p="Sentence.cs" t="Include" />
+        <e p="SentencesValidator.cs" t="Include" />
+        <e p="SpecialWords.cs" t="Include" />
+        <e p="TableOfFirsts.cs" t="Include" />
+        <e p="Token.cs" t="Include" />
+        <e p="TokenType.cs" t="Include" />
+      </e>
+      <e p="utils" t="Include">
+        <e p="EscapeStringExtension.cs" t="Include" />
+        <e p="RawSentence.cs" t="Include" />
+        <e p="SentenceConverter.cs" t="Include" />
+        <e p="SentencesReader.cs" t="Include" />
+        <e p="SlrTableToHtmlVisualizer.cs" t="Include" />
+        <e p="SlrTableToTxtVisualizer.cs" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>
