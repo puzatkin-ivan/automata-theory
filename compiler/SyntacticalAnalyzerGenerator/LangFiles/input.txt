@@ -1,0 +1,11 @@
+program
+{
+    start_block_declarations
+    int lhs;
+    int rhs;
+    end_block_declarations
+    lhs = 10;
+    rhs = 20;
+    lhs = lhs + rhs;
+    Echo(lhs);
+}

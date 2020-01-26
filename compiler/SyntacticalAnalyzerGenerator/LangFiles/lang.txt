@@ -1,0 +1,64 @@
+﻿<PROG> -> program { <body> }
+<body> -> <variables_block> <_body>
+<_body> -> [EPS]
+<_body> -> <operators>
+<variables_block> ->  start_block_declarations <_variables_block> end_block_declarations
+<_variables_block> -> [EPS]
+<_variables_block> -> <_variable> ; <_variables_block>
+<_variable> -> <type> #IDENTIFIER#
+<type> -> bool
+<type> -> char
+<type> -> float
+<type> -> int
+<operators> -> <operator> <_operators>
+<_operators> -> [EPS]
+<_operators> -> <operators>
+<operator> -> <lhs> = <rhs> ;
+<operator> -> <echo> ;
+
+<echo> -> Echo ( <echoValue> )
+<echo> -> Echoln ( <echoValue> )
+<echoValue> -> #DecimalWholeNumber#
+<echoValue> -> #IDENTIFIER#
+<echoValue> -> [EPS]
+
+<ariphmeticalOperation> -> <ariphmeticalOperation_0> <_ariphmeticalOperation>
+<ariphmeticalOperation_0> -> <number> <mulArOp>
+<mulArOp> -> * <number> <mulArOp>
+<mulArOp> -> div <number> <mulArOp>
+<mulArOp> -> [EPS]
+<_ariphmeticalOperation> -> + <ariphmeticalOperation_0> <_ariphmeticalOperation>
+<_ariphmeticalOperation> -> - <ariphmeticalOperation_0> <_ariphmeticalOperation>
+<_ariphmeticalOperation> -> [EPS]
+<number> -> <numberType>
+<number> -> ( <ariphmeticalOperation> )
+<number> -> - <number>
+<numberType> -> #DecimalWholeNumber#
+<numberType> -> #BinaryWholeNumber#
+<numberType> -> #IDENTIFIER#
+
+<lhs> -> #IDENTIFIER#
+<rhs> -> <ariphmeticalOperation>
+<rhs> -> <boolExpression>
+
+<boolExpression> -> | <boolOperations> <_boolExpression>
+<_boolExpression> -> && <boolExpression>
+<_boolExpression> -> || <boolExpression>
+<_boolExpression> -> [EPS]
+
+<boolOperations> -> <boolValues> <_boolOperations>
+<_boolOperations> -> != <boolValues>
+<_boolOperations> -> == <boolValues>
+<_boolOperations> -> < <boolValues>
+<_boolOperations> -> <= <boolValues>
+<_boolOperations> -> > <boolValues>
+<_boolOperations> -> >= <boolValues>
+<_boolOperations> -> [EPS]
+
+<boolValues> -> <boolValue>
+<boolValues> -> ! <boolValues>
+<boolValues> -> ( <boolExpression> )
+
+<boolValue> -> #IDENTIFIER#
+<boolValue> -> false
+<boolValue> -> true

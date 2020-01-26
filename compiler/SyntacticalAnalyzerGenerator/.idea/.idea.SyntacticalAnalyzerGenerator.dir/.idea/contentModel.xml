@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2019.3/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_.19.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="InsertActionsInSyntax" t="Include">
+        <e p="ASTGenerator.cs" t="Include" />
+        <e p="ASTNodes" t="Include">
+          <e p="Enums" t="Include">
+            <e p="NodeType.cs" t="Include" />
+          </e>
+          <e p="IASTNode.cs" t="Include" />
+          <e p="LeafNode.cs" t="Include" />
+          <e p="TreeNode.cs" t="Include" />
+        </e>
+        <e p="ActionSourceType.cs" t="Include" />
+        <e p="AriphmeticalOperationsController.cs" t="Include" />
+        <e p="IVariablesTableController.cs" t="Include" />
+        <e p="SourceActionName.cs" t="Include" />
+        <e p="TypeController.cs" t="Include" />
+        <e p="Variable.cs" t="Include" />
+        <e p="VariablesTableController.cs" t="Include" />
+        <e p="llOneLang.txt" t="Include" />
+      </e>
+      <e p="LLOneConverter.cs" t="Include" />
+      <e p="LangFiles" t="Include">
+        <e p="global_input.txt" t="Include" />
+        <e p="input.txt" t="Include" />
+        <e p="lang.txt" t="Include" />
+      </e>
+      <e p="LangParser.cs" t="Include" />
+      <e p="LlTableToHtmlVisualizer.cs" t="Include" />
+      <e p="MSILGenerator" t="Include">
+        <e p="ASTConverter.cs" t="Include" />
+        <e p="Generator.cs" t="Include" />
+        <e p="MSILLanguage" t="Include">
+          <e p="Constructions" t="Include">
+            <e p="Functions" t="Include">
+              <e p="MainFunction.cs" t="Include" />
+              <e p="PushToStack.cs" t="Include" />
+              <e p="StackCapacityFunction.cs" t="Include" />
+              <e p="WriteLineFunction.cs" t="Include" />
+            </e>
+            <e p="IMSILConstruction.cs" t="Include" />
+            <e p="Operators" t="Include">
+              <e p="AddingOperator.cs" t="Include" />
+              <e p="AndOperation.cs" t="Include" />
+              <e p="ArithmeticOperation.cs" t="Include" />
+              <e p="AssignmentOperator.cs" t="Include" />
+              <e p="BiggerOperation.cs" t="Include" />
+              <e p="BoolOpeartion.cs" t="Include" />
+              <e p="ComparisonOperator.cs" t="Include" />
+              <e p="DivOperation.cs" t="Include" />
+              <e p="IfOperator" t="Include">
+                <e p="BeginElse.cs" t="Include" />
+                <e p="BeginIf.cs" t="Include" />
+                <e p="EndElse.cs" t="Include" />
+                <e p="EndIf.cs" t="Include" />
+              </e>
+              <e p="MulOperator.cs" t="Include" />
+              <e p="NotBoolOperation.cs" t="Include" />
+              <e p="NotComparisonOperation.cs" t="Include" />
+              <e p="OrOperation.cs" t="Include" />
+              <e p="ReadLineOperator.cs" t="Include" />
+              <e p="SmallerOperation.cs" t="Include" />
+              <e p="SubOperation.cs" t="Include" />
+              <e p="VariableDeclarationOperator.cs" t="Include" />
+              <e p="WhileOperator" t="Include">
+                <e p="WhileBegin.cs" t="Include" />
+                <e p="WhileDeclaration.cs" t="Include" />
+                <e p="WhileEnd.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Utils" t="Include">
+              <e p="Initializator.cs" t="Include" />
+              <e p="Variable.cs" t="Include" />
+              <e p="VariableType.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Resources" t="Include">
+          <e p="MSILResource" t="Include">
+            <e p="AddOperation.txt" t="Include" />
+            <e p="AddOperationWithoutResoultVariables.txt" t="Include" />
+            <e p="AndOperation.txt" t="Include" />
+            <e p="AssignmentOperator.txt" t="Include" />
+            <e p="AssignmentOperatorForFloat.txt" t="Include" />
+            <e p="AssignmentOperatorForInteger.txt" t="Include" />
+            <e p="BrFalseOperation.txt" t="Include" />
+            <e p="CeqOperation.txt" t="Include" />
+            <e p="CgtOperation.txt" t="Include" />
+            <e p="CltOperation.txt" t="Include" />
+            <e p="DeclareMetka.txt" t="Include" />
+            <e p="DivOperation.txt" t="Include" />
+            <e p="GetFromStack.txt" t="Include" />
+            <e p="GotoOperation.txt" t="Include" />
+            <e p="Initialize.txt" t="Include" />
+            <e p="MainFunction.txt" t="Include" />
+            <e p="MulOperation.txt" t="Include" />
+            <e p="OrOperation.txt" t="Include" />
+            <e p="ParseStringOperation.txt" t="Include" />
+            <e p="PushToStackDouble.txt" t="Include" />
+            <e p="PushToStackInt.txt" t="Include" />
+            <e p="PushToStackVariableValue.txt" t="Include" />
+            <e p="ReadLineOperator.txt" t="Include" />
+            <e p="StackCapacity.txt" t="Include" />
+            <e p="SubOperation.txt" t="Include" />
+            <e p="VariableDeclarationOperator.txt" t="Include" />
+            <e p="WriteLine.txt" t="Include" />
+          </e>
+          <e p="ResourceFileRouter.cs" t="Include" />
+          <e p="ResourceManager.cs" t="Include" />
+        </e>
+        <e p="Utils" t="Include">
+          <e p="Constants.cs" t="Include" />
+          <e p="VariableTypeHelper.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Results" t="Include">
+        <e p="Result.dll" t="Include" />
+        <e p="Result.exe" t="Include" />
+        <e p="cillang.il" t="Include" />
+      </e>
+      <e p="Runner.cs" t="Include" />
+      <e p="SyntacticalAnalyzerGenerator.cs" t="Include" />
+      <e p="SyntacticalAnalyzerGenerator.csproj" t="IncludeRecursive" />
+      <e p="Utils" t="Include">
+        <e p="AstTreeVisualizer.cs" t="Include" />
+        <e p="EscapeStringExtension.cs" t="Include" />
+      </e>
+      <e p="Words" t="Include">
+        <e p="Expression.cs" t="Include" />
+        <e p="ResultTableRow.cs" t="Include" />
+        <e p="TableRow.cs" t="Include" />
+        <e p="Word.cs" t="Include" />
+        <e p="WordType.cs" t="Include" />
+      </e>
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="SyntacticalAnalyzerGenerator.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

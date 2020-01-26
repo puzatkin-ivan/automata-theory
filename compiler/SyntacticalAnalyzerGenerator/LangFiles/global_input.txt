@@ -1,0 +1,37 @@
+program
+{
+    start_block_declarations
+	int  a;
+	bool b;
+	int q;
+	int w;
+	float l;
+	float lb;
+    end_block_declarations
+
+	l = 10.0;
+	Echo(l);
+	Read(lb);
+	l = l + lb;
+	Echo(l);
+
+	w = 0;
+	while (w != 10)
+	{
+		w = w + 1;
+	    Echo(w);
+	}
+
+	Read(a);
+	if ( a > 10  )
+	{
+		q = 5;
+	}
+	else
+	{
+		q = 7;
+	}
+    Echo(q);
+    
+    Read(q);
+}

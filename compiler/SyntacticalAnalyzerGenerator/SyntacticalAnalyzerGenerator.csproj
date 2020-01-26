@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common.Util\Common.Util.csproj" />
+    <ProjectReference Include="..\GuideSetsDeterminant\GuideSetsDeterminant.csproj" />
+    <ProjectReference Include="..\Lekser\Lekser.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="tempLang.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="lang.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AntiXSS" Version="4.3.0" />
+    <PackageReference Include="runtime.ubuntu.18.04-x64.Microsoft.NETCore.ILDAsm" Version="1.1.13" />
+  </ItemGroup>
+</Project>
